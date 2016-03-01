@@ -1,0 +1,38 @@
+/* MODALS*/
+.message_modal_holder{
+    /*SAME AS .modal_overlay*/
+    width: 100%;
+    height:1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255,255,255, .9);
+    top: -15px;
+    position: fixed;
+    z-index: -1;
+}
+.message_modal{
+    background: #ffffff;
+    position: initial;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    color: #808080;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    text-align: center;
+    z-index: 999999;
+}
+.message_modal_button {
+    border: 0px solid white;
+    color: #ffffff;
+    background-color: #e74c3c;
+    cursor: pointer;
+    -webkit-transition: background-color 500ms ease, border-color 500ms ease;
+    -o-transition: background-color 500ms ease, border-color 500ms ease;
+    transition: background-color 500ms ease, border-color 500ms ease;
+}
